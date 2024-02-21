@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map DS1307Lib
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+DS1307			KEYWORD1
+TimeData		KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+year			KEYWORD2
+month			KEYWORD2
+day			KEYWORD2
+week			KEYWORD2
+hour			KEYWORD2
+minute			KEYWORD2
+second			KEYWORD2
+setTimeData		KEYWORD2
+getTimeData		KEYWORD2
+showTimeDataSerial	KEYWORD2
+hex2string		KEYWORD2
+
+address			KEYWORD2
+RTC_address		KEYWORD2
+write			KEYWORD2
+read			KEYWORD2

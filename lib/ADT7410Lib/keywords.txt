@@ -1,0 +1,19 @@
+#######################################
+# Syntax Coloring Map ADT7410Lib
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+ADT7410			KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+ADT7410_address		KEYWORD2
+Configuration_resister	KEYWORD2
+mode			KEYWORD2
+temperature		KEYWORD2
+getTempData		KEYWORD2
+convTempData		KEYWORD2
+showTempDataSerial	KEYWORD2
