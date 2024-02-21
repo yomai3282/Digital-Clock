@@ -17,11 +17,12 @@ ADT7410::ADT7410(int Mode){
   /*ADT7410のコンストラクタです*/
   Wire.beginTransmission(ADT7410_address); //ADT7410とI2C通信を開始
   mode=Mode;
-  if(mode==16||mode==13){
+  if(mode==16){
     Wire.write(Configuration_register); //設定レジスタに書き込みを指示
     Wire.write(0x80); //設定レジスタに0x80を書き込み=>16bitモードへ
     delay(240); //設定が有効になるまで待機
   }
+  else if(mode==13);
   else{
     Serial.println("エラー:");
     Serial.println("無効なモードが指定されました");
